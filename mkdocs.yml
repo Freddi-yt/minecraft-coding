@@ -86,6 +86,7 @@ nav:
       - TabCompleter: basic/command/005 - TabCompleter.md
     - Events:
       - JoinEvent: basic/events/006 - JoinEvent.md
+      - QuitEvent: basic/events/006 - QuitEvent.md
   - Advanced:
     - something: advanced/something.md
   
