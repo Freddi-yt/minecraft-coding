@@ -1,0 +1,3 @@
+I'm glad you're here...
+
+I would recommend you to have a look at the basics and if you don't understand it, let it go again and come to my [Discord](https://discord.freddi.yt).
