@@ -1,0 +1,7 @@
+mkdocs
+mkdocs-minify-plugin
+mkdocs-material
+Pygments
+markdown
+pymdown-extensions
+mkdocs-git-revision-date-localized-plugin

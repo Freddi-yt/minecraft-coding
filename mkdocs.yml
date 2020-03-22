@@ -1,0 +1,91 @@
+# Project Information
+site_name: Minecraft-Coding - Freddi.yt
+site_decription: 'Die Schriftliche documentation von den YouTube Videos!'
+site_author: 'Frederik Heinrich <mail@FrederikHeinrich.de>'
+site_url: 'https://minecraft-coding.freddi.yt/'
+
+# Repository
+repo_name: freddi-yt/minecraft-coding
+repo_url: 'https://github.com/Freddi-yt/minecraft-coding'
+
+# Copyright
+copyright: 'Copyright &copy; 2020 Frederik Heinrich'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  feature:
+    tabs: true
+  static_templates:
+    - 404.html
+
+  palette:
+    primary: 'deep purple'
+    accent: 'deep purple'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  logo:
+      icon: 'blur_on'
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://git.frederikheinrich.de'
+    - type: 'twitter'
+      link: 'https://twitter.com/Freddi_xyz'
+    - type: 'twitch'
+      link: 'https://freddi.xyz'
+    - type: 'youtube'
+      link: 'https://freddi.yt'
+# Extensions
+markdown_extensions:
+  - admonition:
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.keys:
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Plugins
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: timeago
+  - minify:
+      minify_html: true
+
+nav:
+  - Info: index.md
+  - Getting started: getting-started.md
+  - Basic:
+    - Eclipse Setup: basic/001 - Eclipse Setup.md
+    - Hotkeys: basic/hotkeys.md
+    - Own Spigot.jar: basic/002 - Build your own .jar.md
+    - Create your first Project: basic/003 - Create your first Project.md
+    - Command:
+      - CommandExecutor: basic/command/004 - CommandExecutor.md
+      - TabCompleter: basic/command/005 - TabCompleter.md
+    - Events:
+      - JoinEvent: basic/events/006 - JoinEvent.md
+  - Advanced:
+    - something: advanced/something.md
+  
