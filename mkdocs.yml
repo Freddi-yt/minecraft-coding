@@ -19,6 +19,7 @@ theme:
     tabs: true
   static_templates:
     - 404.html
+    - CNAME
 
   palette:
     primary: 'deep purple'
